@@ -11,7 +11,7 @@ class Window(QtWidgets.QWidget):
         
         self.init_ui()
             
-        self.setWindowTitle("Exc-X")
+        self.setWindowTitle("Browser")
             
     def init_ui(self):
 
