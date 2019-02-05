@@ -15,7 +15,6 @@ class Window(QtWidgets.QWidget):
             
     def init_ui(self):
 
-        ## Forex Graph view.
         self.eksi_biri = QtWebEngineWidgets.QWebEngineView()
         self.eksi_biri.load(QtCore.QUrl('https://eksisozluk.com/biri/ssg'))
         
