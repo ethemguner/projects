@@ -241,7 +241,7 @@ class Window(QtWidgets.QWidget):
         if float(new_euro_usd_ratio) > 0:
             self.currency_ratio_table.item(2,1).setBackground(QtGui.QColor(0,100,0))
             
-        ## WHEN PERCENTAL CHANGE VALUE BE %0.00, THERE IS NO COLOR ASSIGNED.
+        ## FOR %0.00 PERCENTAL CHANGE, NO COLOR ASSIGNED.
         
 app = QtWidgets.QApplication(sys.argv)
 window = Window()
