@@ -15,7 +15,7 @@ class Window(QtWidgets.QWidget):
             
     def init_ui(self):
         
-            self.information_label = QtWidgets.QLabel("Bütün veriler bloomberght.com'dan alınmıştır.") ## çok bahtsızım ben, başımıza bir şey gelmesin diye bu bilgiyi ekliyoruz. :*)
+            self.information_label = QtWidgets.QLabel("Bütün veriler bloomberght.com'dan alınmıştır.")
             ## bir zamanlyııc ayarı. her 30 saniyede bir programın fonksiyonları ve çekilen değerleri yeniler.
             self.timer = QtCore.QTimer(self)
             self.timer.timeout.connect(self.refreshData) ## functiona gidiyoruzi.
